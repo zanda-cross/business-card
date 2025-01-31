@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.avatar {
+    width: 150px;
+    
+}
+
+.card {
+    position: relative; /* Important for absolute positioning of stars */
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fdffb6;
+    color: #2b2839;
+    border-bottom: 8px solid #D4ECF5;
+    overflow: hidden; /* Prevents stars from overflowing outside */
+    border-radius: 15px; /* Smooth edges */
+}
+
+/* Styling for stars */
+.star {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0px 0px 5px white;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show stars when hovered */
+.card:hover .star {
+    opacity: 1;
+}
+
+/* Stars twinkling effect */
+@keyframes twinkle {
+    0%, 100% {
+        transform: scale(0.8);
+        opacity: 0.2;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+
+
+
+
