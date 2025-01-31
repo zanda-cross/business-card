@@ -3,7 +3,7 @@
 A simple digital business card built with HTML, CSS, and JavaScript. This project features an interactive hover effect where small white stars appear and twinkle across the card.
 
 ## Demo
-![Demo Preview](images/demo.png) *(Add a screenshot or GIF showing the hover effect in action)*
+![Demo Preview](images/demo.png)
 
 ## Features
 - 🎨 **Clean and Minimal UI** – A visually appealing card with a soft color scheme.
